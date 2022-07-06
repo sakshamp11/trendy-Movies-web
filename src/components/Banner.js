@@ -29,7 +29,8 @@ export class Banner extends Component {
     console.log("mounting done with CDM third");
   }
   change=async()=> {
-    movies=[...this.state.movieset]
+    let tt=this.state.movieset
+    movies=[...tt]
     
 
   }
