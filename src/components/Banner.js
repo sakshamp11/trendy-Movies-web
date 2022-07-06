@@ -8,16 +8,16 @@ export class Banner extends Component {
     console.log("construtor first");
     super();
 
-    this.state = {
+    // this.state = {
       
-      movieset: [],
-      currPage: Math.floor(Math.random()*54)+1,
+    //   movieset: [],
+    //   currPage: Math.floor(Math.random()*54)+1,
      
-    };
+    // };
   }
   async componentDidMount() {
     const res = await axios.get(
-      `https://api.themoviedb.org/3/movie/popular?api_key=0b5415eb9bf023d556ef265b425e0e4a&language=en-US&page=${this.state.currPage}`
+      `https://api.themoviedb.org/3/movie/popular?api_key=0b5415eb9bf023d556ef265b425e0e4a&language=en-US&page=${1}`
     );
     let movieData = res.data;
     console.log(movieData);
@@ -28,14 +28,14 @@ export class Banner extends Component {
 
     console.log("mounting done with CDM third");
   }
-  change=async()=> {
-    let tt=this.state.movieset
-    movies=[...tt]
+  // change=async()=> {
+  //   let tt=this.state.movieset
+  //   movies=[...tt]
     
 
-  }
+  // }
   render() {
-    this.change()
+    // 
     let moviesElem=movies.results[(Math.floor(Math.random()*10)+2)]
     let backDrop =  moviesElem.backdrop_path
     let namemov=moviesElem.title
