@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+.banner-card{
+        
+        width: 100vw;
+        height: 1vh;
+        margin-top: 2vh;
+        margin-bottom: 2vh; 
+        position:relative;
+        height: auto;
+        
+}
+.banner-title{
+    position: absolute;
+    top: 45vh;
+    margin-left: 2rem;
+    height: 4.4rem;
+    font-style: italic;
+    color: #282c34;
+
+}
+.trend{
+  justify-content: center;
+  display: flex;
+  color: silver;
+  
+}
+.movies-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+
+}
+.movie-card{
+    position: relative;
+    justify-content: center;
+    width: 20vw;
+    border: white;
+
+}
+.movie-title{
+  position: absolute;
+  color:azure;
+  font: bold;
+  font: bolder;
+  text-decoration: solid;
+
+  top: 3rem;
+  left:1.2rem;
+}
+.movies-button{
+  position: absolute;
+  background-color:antiquewhite;
+  bottom:4rem;
+  left: 3.1rem;
+  justify-content: center;
+
+}
+.pagination{
+    flex: content;
+    justify-content: center;
+}
+.genre-selector{
+  padding: 3rem;
+}
+
+.favourites-table{
+  padding: 3rem;
+}
