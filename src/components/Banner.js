@@ -35,7 +35,7 @@ export class Banner extends Component {
   }
   render() {
     this.change()
-    let moviesElem=movies.results[Math.floor(Math.random()*11)+2]
+    let moviesElem=movies.results[(Math.floor(Math.random()*11)+2)]
     let backDrop =  moviesElem.backdrop_path
     let namemov=moviesElem.title
     return (
