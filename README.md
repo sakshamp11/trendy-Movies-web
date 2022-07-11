@@ -1,5 +1,5 @@
-#Deployed project :https://trendy-movie-webapp-sakshampra.herokuapp.com/
-                YOu can Access the web-app using above deployed link
+# Deployed project :https://trendy-movie-webapp-sakshampra.herokuapp.com/
+                You can Access the web-app using above deployed link
 
 
 
